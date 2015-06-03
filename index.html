@@ -1,41 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>First Page</title>
+    <title>LYNIX</title>
 
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
 </head>
 <body>
 
-    <div id="wrap">
-        <!-- Сделать тёмно-серый фон у этого блока -->
+    <div id="main">
+        <!-- Header start -->
         <header class="b-header">
-            <!-- Заменить текст в логотипе картинкой используя CSS-cвойство background -->
-            <h1><a href="#" class="b-logo">LOGO</a></h1>
+            <div class="wrp-header">
 
-            <ul class="b-main-menu">
-                <!-- Добавить разделительные полосы для каждого элемента LI слева и справа с помощью CSS-свойства border -->
-                <li class="border"><a href="#">Пункт меню 1</a></li>
-                <li class="border"><a href="#">Пункт меню 2</a></li>
-                <li class="border"><a href="#">Пункт меню 3</a></li>
-                <li class="border"><a href="#">Пункт меню 4</a></li>
-                <li class="border"><a href="#">Пункт меню 5</a></li>
-            </ul>
+                <!-- LOGO START -->
+                <div class="b-col3">
+                    <h1 class="b-logo">
+                        <a href="#">LYNIX</a>
+                        <span>Инструмент статейного продвижения</span>
+                    </h1>
+                </div>
+                <!-- LOGO END -->
+
+                <!-- NAVBAR START -->
+                <div class="b-col6">
+                    <ul class="b-main-menu">
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">Магазин</a></li>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Форум</a></li>
+                    </ul>
+                </div>
+                <!-- NAVBAR END -->
+
+                <!-- AUTH START -->
+                <div class="b-col3">
+                    <ul class="b-user-auth">
+                        <li><a href="">Зарегестрироваться</a></li>
+                        <li><a href="">Вход</a></li>
+                    </ul>
+                </div>
+                <!-- AUTH END  -->
+
+            </div>
         </header>
-
-        <main class="b-main">
-            <!-- Добавить картинку слева от текста-->
-
-            <img src="img/1img.jpg" width="189" height="280" align="left"  alt="RESIS"/>
-           
-            HELLO WORLD! THIS IS A TEST!
-        </main>
-
-        <footer class="b-footer">
-            <!-- Добавить ссылку на email и сьтраницу в VK -->
-          <a href="http://vk.com/id5464155">Kostyan &copy; 2015</a>
-        </footer>
+        <!-- Header END -->
     </div>
+
 </body>
 </html>
