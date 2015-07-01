@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f212f2-6e0a-4cc1-a9a7-67c0ccc582f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/style.less" afterPath="$PROJECT_DIR$/css/less/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontend.iws" />
@@ -215,7 +212,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435696706171</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit: говнокод, третий блок подвала ужасен">
+      <created>1435783152960</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1435783152960</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -270,7 +273,8 @@
     <MESSAGE value="Add logo" />
     <MESSAGE value="Commit: Доделал менюшку, попытался сделать мимимишные кнопки" />
     <MESSAGE value="Соммит: новое задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Соммит: новое задание" />
+    <MESSAGE value="Commit: говнокод, третий блок подвала ужасен" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit: говнокод, третий блок подвала ужасен" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
