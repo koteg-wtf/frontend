@@ -150,6 +150,42 @@ h1 {
   }
 }
 
+p {
+  padding: 0;
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+
+    a {
+      text-decoration: underline;
+      color: #0185be;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+}
+
+p.logo1:after {
+  content: "";
+  display: inline-block;
+  float: right;
+  background: transparent url("../img/strelka.png") no-repeat;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+p.logo2:after {
+  content: "" ;
+  display: inline-block;
+  float: right;
+  margin: 10px;
+  width: 53px;
+  height: 49px;
+  background: transparent url("../img/cesta.png") no-repeat;
+}
+
 // 1) Доделать третий блок подвала.
 // 2) Оптимизировать код CSS, избавиться от повторяющихся кусков.
 // 3) Сделать трёхколоночное меню, идущее после слайдера.
