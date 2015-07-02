@@ -105,33 +105,6 @@ h1 {
     .b-links-style
   }
 }
-
-.b-first-text,
-.b-second-text {
-  padding: 0;
-  text-align: right;
-  font-size: 12px;
-  font-style: italic;
-  display: inline-block;
-  .b-links-style
-}
-
-div.logo1:after {
-  content: url("../img/strelka.png");
-  clear: both;
-  display: inline-block;
-  float: right;
-  margin: 10px;
-}
-
-div.logo2:after {
-  content: url("../img/cesta.png");
-  clear: both;
-  display: inline-block;
-  float: right;
-  margin: 10px;
-}
-
 .b-style-menu {
   li {
     display: inline-block;
@@ -156,6 +129,7 @@ div.logo2:after {
   a {
     text-decoration: underline;
     color: #0185be;
+    font-style: italic;;
 
     &:hover {
       text-decoration: none;
@@ -170,7 +144,37 @@ div.logo2:after {
   font-size: 0;
   line-height: 0;
   letter-spacing: -1px;
+}
+.b-footer-terms,
+.b-footer-copy {
+  .b-links-style;
 
+  &:before {
+    float: right;
+    margin-left: 10px;
+    content: '';
+  }
+}
+.b-footer-terms {
+  font-size: 12px;
+
+  &:before{
+    height: 31px;
+    width: 31px;
+    background: transparent url("../img/strelka.png") 50% 50% no-repeat;
+  }
+}
+.b-footer-copy {
+  font-size: 10px;
+
+  &:before{
+    width: 53px;
+    height: 49px;
+    background: transparent url("../img/cesta.png") 50% 50% no-repeat;
+  }
+}
+.m-text-right {
+  text-align: right;
 }
 // 1) Доделать третий блок подвала.
 // 2) Оптимизировать код CSS, избавиться от повторяющихся кусков.
