@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f212f2-6e0a-4cc1-a9a7-67c0ccc582f6" name="Default" comment="Commit: сделан первый параграв, второй пошел в жопу и не захотел работать">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cesta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/strelka.png" />
+    <list default="true" id="41f212f2-6e0a-4cc1-a9a7-67c0ccc582f6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/style.less" afterPath="$PROJECT_DIR$/css/less/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontend.iws" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05704698">
-              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.3137584">
+              <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -280,7 +280,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435794134055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit: добавлены картинки">
+      <created>1435826486678</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1435826486678</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -294,9 +300,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22991072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22991072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -337,7 +343,8 @@
     <MESSAGE value="Соммит: новое задание" />
     <MESSAGE value="Commit: говнокод, третий блок подвала ужасен" />
     <MESSAGE value="Commit: сделан первый параграв, второй пошел в жопу и не захотел работать" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit: сделан первый параграв, второй пошел в жопу и не захотел работать" />
+    <MESSAGE value="Commit: добавлены картинки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit: добавлены картинки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05704698">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.3137584">
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
           <folding />
         </state>
       </provider>
