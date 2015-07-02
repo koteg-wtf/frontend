@@ -63,33 +63,9 @@ h1 {
 }
 
 .b-main-menu {
-  margin: 10px 0;
-  padding: 0;
-  list-style: none;
+  .b-main-auth-menu;
+  .b-style-menu;
   text-align: center;
-  font-size: 0;
-  line-height: 0;
-  letter-spacing: -1px;
-
-  li {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: normal;
-
-    a {
-      display: block;
-      text-decoration: none;
-      padding: 10px 25px;
-      color: white;
-      background-color: #14a4d0;
-
-      &:hover {
-        background-color: #0c6e93;
-      }
-    }
-  }
-
 }
 
 .b-menu-rad-left {
@@ -101,13 +77,7 @@ h1 {
 }
 
 .b-user-auth {
-  margin: 10px 0;
-  padding: 0;
-  list-style: none;
-  text-align: right;
-  font-size: 0;
-  line-height: 0;
-  letter-spacing: -1px;
+  .b-main-auth-menu;
 
   li {
     display: inline-block;
@@ -138,15 +108,7 @@ h1 {
   li {
     display: inline-block;
     padding: 10px 20px;
-
-    a {
-      text-decoration: underline;
-      color: #0185be;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
+    .b-links-style
   }
 }
 
@@ -157,17 +119,7 @@ h1 {
   font-size: 12px;
   font-style: italic;
   display: inline-block;
-
-
-
-    a {
-      text-decoration: underline;
-      color: #0185be;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
+  .b-links-style
 }
 
 div.logo1:after {
@@ -187,7 +139,45 @@ div.logo2:after {
   margin: 10px;
 
 }
+.b-style-menu {
+  li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: normal;
 
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 10px 25px;
+      color: white;
+      background-color: #14a4d0;
+
+      &:hover {
+        background-color: #0c6e93;
+      }
+    }
+  }
+}
+.b-links-style {
+  a {
+    text-decoration: underline;
+    color: #0185be;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.b-main-auth-menu {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -1px;
+
+}
 // 1) Доделать третий блок подвала.
 // 2) Оптимизировать код CSS, избавиться от повторяющихся кусков.
 // 3) Сделать трёхколоночное меню, идущее после слайдера.
