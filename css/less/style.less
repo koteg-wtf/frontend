@@ -230,8 +230,40 @@ h3 {
   margin-bottom: 30px;
 }
 .m-promo-icon {
+  position: relative;
 
+    &:before {
+      position: absolute;
+      width: 70px;
+      height: 68px;
+      top: 0;
+      right: 100%;
+      margin-right: 10px;
+      content: '';
+  }
 }
+
+.m-promo-clock {
+
+  &:before {
+    background: transparent url("../img/clock.png") 50% 50% no-repeat;
+  }
+}
+
+.m-promo-notes {
+
+  &:before {
+    background: transparent url("../img/notes.png") 0 0 no-repeat;
+  }
+}
+
+.m-promo-screen {
+
+  &:before {
+    background: transparent url("../img/screen.png") 0 0 no-repeat;
+  }
+}
+
 // 1) Доделать третий блок подвала.
 // 2) Оптимизировать код CSS, избавиться от повторяющихся кусков.
 // 3) Сделать трёхколоночное меню, идущее после слайдера.
